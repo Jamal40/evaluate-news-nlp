@@ -94,6 +94,9 @@ body {
   letter-spacing: 4px;
 }
 
+.btn:hover {
+  cursor: pointer;
+}
 .url-box a:hover {
   background: #03e9f4;
   color: #fff;

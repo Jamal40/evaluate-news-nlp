@@ -6,7 +6,7 @@ function handleSubmit(event) {
   let formText = document.querySelector("input").value;
   // checkForName(formText);
 
-  if (checkForURL(formText)) {
+  if (Client.checkForURL(formText)) {
     console.log("::: Form Submitted :::");
     postData("http://localhost:8080/analyze", { txt: formText }).then((res) => {
       document.querySelector(".agr").textContent = res.agreement;
