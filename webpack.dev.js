@@ -14,7 +14,7 @@ module.exports = {
   devtool: "source-map",
   stats: "verbose",
   devServer: {
-    port: 8081,
+    port: 8082,
   },
   module: {
     rules: [
